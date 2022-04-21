@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Classic Login Form Example</title>
+  <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="inc/style.css" />
+</head>
+
+<!-- partial -->
+
+<body>
+<!-- partial:index.partial.html -->
+<section class='login' id='login'>
+  <div class='head'>
+  <h1 class='company'>Welcome to the Library!</h1>
+  </div>
+  <p class='msg' id="message">Please scan your badge or type your ID number:</p>
+
+  <div class='form'>
+    <form>
+      <input type="text" oninput="" placeholder='Student ID' class='text' id='studentid' required autofocus="autofocus" onfocus="this.select()"><br>
+      <br>
+      <a href="#" class='btn-login' id='checkIn'>Login</a><br>
+      <br>
+    </form>
+  </div>
+</section>
+</body>
+<footer>
+  <div id="container">
+
+  </div>
+</footer>
+<script type="module" src="inc/script.js"></script>
+<script>
+  var input = document.getElementById("studentid");
+  input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+     event.preventDefault();
+     document.getElementById("checkIn").click();
+    }
+  });
+  </script>
+  
+</html>

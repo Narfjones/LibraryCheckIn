@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Live Library Attendance</title>
+    <link rel="stylesheet" type="text/css" href="inc/table.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.css">
+  </head>
+  <body>
+    <div class="box">
+      <a href="#" class="btn btn-white btn-animation-1">Start Day</a> 
+    </div>
+    <div class="box1">
+      <a href="#" class="btn btn-white btn-animation-1">End Day</a> 
+    </div>
+    <div class="container">
+      <div class="row">
+        <!-- table gets inserted here with jquery -->
+      <table id="realtime" class="display" width="100%"></table>
+      </div>
+    </div>
+    <div id="modal" class="modal"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/1.10.22/api/row().show().js"></script>
+    <script type= "module" src="inc/db.js"></script>
+  </body>
+  
+</html>
