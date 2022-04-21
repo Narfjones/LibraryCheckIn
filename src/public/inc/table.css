@@ -90,6 +90,7 @@ tfoot td {
   background:#fff;
   color:#000;
   margin-right: 10%;
+  margin-top: 6%;
 }
 
 .btn:hover{
@@ -177,4 +178,10 @@ tfoot td {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+.container{
+  margin-top:10%;
+  margin-left:20%;
+  margin-right:20%;
 }

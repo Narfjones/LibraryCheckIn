@@ -33,8 +33,8 @@ $( window ).on('load', function() {
     serverside: true,
     searching: false, paging: false, info: false,
     columns: [
-      { "data": "Student Id"},
-      { "data": "First Name"},
+      { "data": "id"},
+      { "data": "first_name"},
       { "data": "last_name" }
     ]
     })
