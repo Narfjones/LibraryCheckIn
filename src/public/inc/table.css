@@ -11,7 +11,7 @@ body {
 }
 
 table {
-  width: 75%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -58,17 +58,17 @@ tfoot td {
 
 .box{
   position:absolute;
-  width: auto;
+  width: 20%;
   top: 5%;
-  left:20%;
+  left: 50%;
   transform : translate(-50% ,-50%);
 }
 
 .box1{
   position:absolute;
-  width: auto;
+  width: 20%;
   top: 5%;
-  right:20%;
+  right: 50%;
   transform : translate(-50% ,-50%);
 }
 
@@ -185,3 +185,5 @@ tfoot td {
   margin-left:20%;
   margin-right:20%;
 }
+
+

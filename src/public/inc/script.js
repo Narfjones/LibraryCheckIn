@@ -25,6 +25,7 @@ btnLogin.onclick = function(){
     if (data.data[i].id == sId && data.data[i].checked_in == 'FALSE'){
       data.data[i].checked_in = 'TRUE';
       console.log(data.data[i].first_name + data.data[i].last_name + " has checked in.");
+      data.data[i].last_check_in = current.getHours() + ":" + current.getMinutes()
     }
     else if (data.data[i].id == sId && data.data[i].checked_in == 'TRUE'){
       data.data[i].checked_in = 'FALSE';

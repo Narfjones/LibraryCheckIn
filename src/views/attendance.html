@@ -10,13 +10,18 @@
     <div class="box">
       <a href="#" class="btn btn-white btn-animation-1">Start Day</a> 
     </div>
-    <div class="box1">
-      <a href="#" class="btn btn-white btn-animation-1">End Day</a> 
-    </div>
     <div class="container">
       <div class="row">
         <!-- table gets inserted here with jquery -->
-      <table id="realtime" class="display" width="100%"></table>
+      <table id="realtime" class="ui celled table" width="100%">
+        <thead>
+          <tr>
+              <th>Student ID</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Time in</th>
+          </tr>
+      </table>
       </div>
     </div>
     <div id="modal" class="modal"></div>

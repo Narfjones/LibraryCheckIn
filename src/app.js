@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.post('/data', function(request, response){
   const dataSet = JSON.stringify(request.body);
-  fs.writeFileSync('./src/public/inc/dataSet.json', dataSet, (err) => {
+  fs.writeFileSync('./public/inc/dataSet.json', dataSet, (err) => {
     if (err) {
         throw err;
     }
@@ -29,7 +29,7 @@ app.post('/data', function(request, response){
 
 app.post('/time', function(request, response){
     const time = JSON.stringify(request.body);
-    fs.writeFileSync('./src/public/inc/time.dat', time, (err) => {
+    fs.writeFileSync('./public/inc/time.dat', time, (err) => {
       if (err) {
           throw err;
       }

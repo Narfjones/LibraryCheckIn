@@ -35,7 +35,8 @@ $( window ).on('load', function() {
     columns: [
       { "data": "id"},
       { "data": "first_name"},
-      { "data": "last_name" }
+      { "data": "last_name" },
+      { "data": "last_check_in"}
     ]
     })
     
